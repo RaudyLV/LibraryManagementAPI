@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vscode/
+.vs/
+Generated_Code/
+
+# Rider
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# EF Core Migrations Snapshots (opcional)
+*MigrationsSnapshot.cs
+
+# Config files (opcional si contienen secretos)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Others
+*.db
+*.sqlite
+
+# Swagger generated JSON (opcional si se guarda)
+swagger/
